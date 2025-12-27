@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 60px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar li {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.navbar li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: #00c2ff;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icons span, .icons a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.user-name {
+    font-size: 14px;
+    color: #00c2ff;
+    margin-right: 10px;
+}
+
+/* HERO */
+.hero {
+    padding: 70px 60px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+.hero-card {
+    background: #0b0b0b;
+    border-radius: 18px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    width: 45%;
+}
+
+.hero-text h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #ccc;
+    margin-bottom: 25px;
+}
+
+.hero-text button {
+    background: #2b2b2b;
+    color: #fff;
+    border: none;
+    padding: 14px 28px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.hero-text button:hover {
+    background: #3b3b3b;
+}
+
+.hero-image {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.amd-shape {
+    width: 230px;
+    height: 230px;
+    background: linear-gradient(135deg, #f5c542, #00c2ff);
+    clip-path: polygon(0 0,100% 0,100% 30%,60% 30%,60% 100%,0 100%);
+}
+
+/* WHY AMD */
+.why-amd {
+    padding: 110px 80px;
+    background:
+        radial-gradient(circle at left top, rgba(255,180,0,.18), transparent 40%),
+        radial-gradient(circle at right top, rgba(0,200,255,.18), transparent 40%),
+        #000;
+    text-align: center;
+}
+
+.why-amd h2 {
+    font-size: 36px;
+    margin-bottom: 70px;
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    margin-bottom: 70px;
+}
+
+.why-item h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.why-item p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #ccc;
+}
+
+.why-btn button {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #00c2ff;
+    padding: 15px 34px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.why-btn button:hover {
+    background: rgba(0, 194, 255, 0.1);
+}
+
+/* FOOTER */
+.footer {
+    padding: 70px 60px;
+    color: #ccc;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.subscribe-btn {
+    background: linear-gradient(#2b2b2b, #1a1a1a);
+    color: #fff;
+    border: 1px solid #444;
+    padding: 16px 26px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.social-icons span {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-links h4 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #00c2ff;
+}
+
+.footer-bottom {
+    border-top: 1px solid #222;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.copyright {
+    color: #777;
+}

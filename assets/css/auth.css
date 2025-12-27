@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: radial-gradient(circle at top, #111, #000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box, .register-box, .result-box {
+    width: 420px;
+    background: #121212;
+    padding: 40px 35px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow:
+        0 0 40px rgba(255,0,0,0.35),
+        inset 0 0 0 1px rgba(255,255,255,0.05);
+}
+
+.login-box h2, .register-box h2 {
+    color: #ff0000;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+.login-box p, .register-box p {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.login-box input, .register-box input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 18px;
+    border: none;
+    border-radius: 8px;
+    background: #1e1e1e;
+    color: #fff;
+    font-size: 14px;
+}
+
+.login-box input::placeholder, .register-box input::placeholder {
+    color: #777;
+}
+
+.login-box input:focus, .register-box input:focus {
+    outline: none;
+    box-shadow: 0 0 0 1px #ff0000;
+}
+
+.login-box button, .register-box button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #ff0000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+
+.login-box button:hover, .register-box button:hover {
+    background: #d40000;
+}
+
+.links {
+    margin-top: 22px;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.links a {
+    color: #aaa;
+    text-decoration: none;
+    display: block;
+}
+
+.links a:hover {
+    color: #ff0000;
+}
+
+/* Result Box Styles */
+.success {
+    color: #00ff88;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.error {
+    color: #ff4d4d;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.result-box p {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.result-box a {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #ff0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.result-box a:hover {
+    background: #d40000;
+}
